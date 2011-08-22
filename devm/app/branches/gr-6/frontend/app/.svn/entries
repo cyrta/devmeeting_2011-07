@@ -1,0 +1,43 @@
+10
+
+dir
+368
+svn+ssh://4b2b3@10.1.1.10/srv/repos/devm/app/branches/gr-6/frontend/app
+svn+ssh://4b2b3@10.1.1.10/srv/repos/devm
+
+
+
+2011-07-23T17:10:03.321686Z
+364
+31a8d
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+30248ccc-6b9b-445d-bf31-cda0559d13bf
+
+model
+dir
+
+event
+dir
+
+controller
+dir
+
+core
+dir
+
+view
+dir
+

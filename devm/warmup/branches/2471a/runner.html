@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<link href="lib/qunit.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="lib/jquery.js"></script>
+		<script type="text/javascript" src="lib/qunit.js"></script>
+		<script type="text/javascript" src="lib/runner.js"></script>
+		<script type="text/javascript" src="lib/scoreboard.js"></script>
+		<script type="text/javascript" src="impl.js"></script>
+		<script type="text/javascript" src="tests.js"></script>
+        <script type="text/javascript" src="lib/log4javascript.js"></script>
+
+        <script type="text/javascript">
+        var log = log4javascript.getLogger();
+        log.setLevel(log4javascript.Level.ALL)
+        var popUpAppender = new log4javascript.PopUpAppender();
+        popUpAppender.setThreshold(log4javascript.Level.ALL);
+        var layout = new log4javascript.PatternLayout("%d{dd MMM yyyy HH:mm:ss,SSS} [%-5p] %m");
+        popUpAppender.setLayout(layout);
+        log.addAppender(popUpAppender);
+    </script>
+
+	</head>
+	<body>
+		<h1 id="qunit-header">Tests</h1>
+		<h2 id="qunit-banner"></h2>
+		<h2 id="qunit-userAgent"></h2>
+		<ol id="qunit-tests"></ol>
+	</body>
+</html>
